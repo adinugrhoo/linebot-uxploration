@@ -1,0 +1,184 @@
+{"line":{
+    "type": "flex",
+    "altText": "This is a Flex Message",
+    "contents":{
+    "type": "carousel",
+    "contents": [
+      {
+        "type": "bubble",
+        "styles": {
+          "footer": {
+            "separator": true
+          }
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://github.com/adinugrhoo/linebot-uxploration/blob/master/assets/img/Update%20Profile.jpg?raw=true",
+          "size": "full",
+          "aspectRatio": "16:9",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "http://linecorp.com/"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Ubah alamat atau no handphone kamu",
+              "size": "xs",
+              "color": "#aaaaaa",
+              "wrap": true
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "xxl",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "button",
+                  "color": "#45B9C3",
+                  "action": {
+                    "type": "uri",
+                    "label": "Ganti Profile",
+                    "uri": "https://linecorp.com"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "button",
+              "color": "#818181",
+              "action": {
+                "type": "uri",
+                "label": "Lihat Profile",
+                "uri": "https://linecorp.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "footer": {
+            "separator": true
+          }
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://github.com/adinugrhoo/linebot-uxploration/blob/master/assets/img/About%20Us.jpg?raw=true",
+          "size": "full",
+          "aspectRatio": "16:9",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "http://linecorp.com/"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Ketahui kehebatan laundriana",
+              "size": "xs",
+              "color": "#aaaaaa",
+              "wrap": true
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "xxl",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "button",
+                  "color": "#45B9C3",
+                  "action": {
+                    "type": "uri",
+                    "label": "Fitur - fitur",
+                    "uri": "https://linecorp.com"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "button",
+              "color": "#45B9C3",
+              "action": {
+                "type": "uri",
+                "label": "Proses Cuci",
+                "uri": "https://linecorp.com"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "bubble",
+        "styles": {
+          "footer": {
+            "separator": true
+          }
+        },
+        "hero": {
+          "type": "image",
+          "url": "https://github.com/adinugrhoo/linebot-uxploration/blob/master/assets/img/kontak.jpg?raw=true",
+          "size": "full",
+          "aspectRatio": "16:9",
+          "aspectMode": "cover",
+          "action": {
+            "type": "uri",
+            "uri": "http://linecorp.com/"
+          }
+        },
+        "body": {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "Lebih dekat untuk informasi menarik",
+              "size": "xs",
+              "color": "#aaaaaa",
+              "wrap": true
+            },
+            {
+              "type": "box",
+              "layout": "vertical",
+              "margin": "xxl",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "button",
+                  "color": "#45B9C3",
+                  "action": {
+                    "type": "uri",
+                    "label": "Chat Admin",
+                    "uri": "https://linecorp.com"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "button",
+              "color": "#45B9C3",
+              "action": {
+                "type": "uri",
+                "label": "Follow Instagram",
+                "uri": "https://linecorp.com"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+  }
+  }
