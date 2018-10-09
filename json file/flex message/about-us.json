@@ -1,0 +1,55 @@
+{
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "size": "full",
+      "aspectRatio": "1:1",
+      "aspectMode": "cover",
+      "url": "https://github.com/adinugrhoo/linebot-uxploration/blob/master/assets/img/About%20Us%20new.jpg?raw=true"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Yuk! kenali laundriana lebih dekat",
+          "size": "sm",
+          "color": "#555555",
+          "wrap": true
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "Fitur - Fitur Laundriana",
+            "uri": "https://linecorp.com"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "Proses Mencuci di Laundriana",
+            "uri": "https://linecorp.com"
+          }
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "Kontak Kami",
+            "uri": "https://linecorp.com"
+          }
+        }
+      ]
+    }
+  }
